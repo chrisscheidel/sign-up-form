@@ -6,14 +6,12 @@
 
 .hero-image {
     flex: 1;
-    background-color: lightblue;
 }
 
 .signup-form {
     display: flex;
     flex-direction: column;
     flex: 2;
-    background-color: lightcoral;
 }
 
 .instructions,
