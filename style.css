@@ -79,6 +79,10 @@ body {
 
 .overlay .text-container {
     justify-content: left;
+    font-family: "Norse", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
 }
 
 .logo-container  img {
@@ -87,12 +91,6 @@ body {
     max-width: 40%;
 }
 
-.text-container {
-    font-family: "Norse", Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 80px;
-    color: white;
-}
 
 .form-intro,
 .instructions,
@@ -105,24 +103,28 @@ body {
     background-color: #F5F5F5;
 }
 
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.instructions p {
+    margin-bottom: 40px;
+}
+
 .input-form {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
     margin-bottom: 8px;
 }
 
-.account button {
-    display: block;
-}
-
 .form-intro {
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 form {
     display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 40px 20px 40px
 }
 
 .left-col,
@@ -147,21 +149,26 @@ input[type="password"]:user-invalid {
 
 .account button {
     font-size: 16px;
+    display: block;
     font-weight: bold;
     background-color: #5B7C99;
     color: white;
     border-radius: 5px;
     width: 250px;
     height: 50px;
-
+    margin-top: 40px;
 }
 
 .account p,
-.account button {
-    margin: 30px 0 0 40px
+.account button,
+form,
+.form-intro,
+.instructions p {
+    margin-left: 40px;
 }
 
 .account p a {
     color: #5B7C99;
     text-decoration: none;
+    margin-top: 40px;
 }
