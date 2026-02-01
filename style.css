@@ -12,6 +12,8 @@
 
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -90,3 +92,4 @@ body {
     font-size: 80px;
     color: white;
 }
+
