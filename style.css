@@ -113,3 +113,29 @@ body {
 .account button {
     display: block;
 }
+
+.form-intro {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.left-col,
+.right-col {
+    flex:1;
+    font-size: 12px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    width: 250px;
+    height: 25px;
+}
